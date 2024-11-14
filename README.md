@@ -9,11 +9,16 @@ Execution Steps :
 3. Run application .
 
 Assumptions
-Application: WebApi 
+Application: WebApi
+
 Cache : Using in-memory cache to preserve otp's and expiration times.
+
 SMTP: A function SendEmail is provided that sends the email using SMTP.
+
 Timer: 1-minute expiration on each OTP.
+
 Retries: The module allows up to 10 attempts within the time limit.
+
 Email Validation: Only emails from @dso.org.sg domain are allowed.
 
 Swagger URL will be opened
